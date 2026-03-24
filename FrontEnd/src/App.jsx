@@ -3,10 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Author from './components/Author'
-import "/.styles/Author.module.css"
-import Title from './components/Title'
-import "/.styles/Title.module.css"
-import './App.css'
+import "/..styles/Author.module.css"
+import Note from '../components/Title'
+import "/..style/Title.module.css"
+import '../App.css'
 
 function App() {
   const [count, setCount] = useState(0)
